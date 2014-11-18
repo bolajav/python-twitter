@@ -35,20 +35,6 @@ def processTweet(tweet):
 
 fo=open("tweets.html","w")
 fo.write('<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />')
-#fo.write('<tr>')
-
-
-#fo.write('<div class="table-title">')
-#fo.write('<h3>Tweets</h3>')
-#fo.write('</div>')
-#fo.write('<table class="table-fill">')
-#fo.write('<thead>')
-#fo.write('<tr>')
-#fo.write('<th class="text-left">Username</th>')
-#fo.write('<th class="text-left">Time</th>')
-#fo.write('<th class="text-left">Tweet</th>')
-#fo.write('</tr>')
-#fo.write('</thead>')
 
 
 
@@ -75,10 +61,5 @@ for t in search:
 	fo.write( '')
 	fo.write("</tr>")
 fo.write("</table>")
-#result=""+str(search)
 
-#fo.write(result)
-
-#for t in search:
- #fo.write(t.text.encode('ascii','ignore')+'\n\n')
  
